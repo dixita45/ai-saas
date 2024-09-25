@@ -8,12 +8,9 @@ import { cn } from "@/lib/utils";
 
 import {
   Code,
-  ImageIcon,
   LayoutDashboard,
   MessageSquare,
-  Music,
   Settings,
-  VideoIcon,
 } from "lucide-react";
 import FreeCounter from "./free-counter";
 
@@ -31,24 +28,6 @@ const routes = [
     icon: MessageSquare,
     href: "/conversation",
     color: "text-violet-500",
-  },
-  {
-    label: "Image Generation",
-    icon: ImageIcon,
-    href: "/image",
-    color: "text-pink-700",
-  },
-  {
-    label: "Video Generation",
-    icon: VideoIcon,
-    href: "/video",
-    color: "text-orange-700",
-  },
-  {
-    label: "Music Generation",
-    icon: Music,
-    href: "/music",
-    color: "text-emerald-500",
   },
   {
     label: "Code Generation",
